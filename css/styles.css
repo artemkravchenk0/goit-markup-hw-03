@@ -1,0 +1,204 @@
+
+/* основной цвет текста #757575 */
+/* цвет текста заголовков #212121 */
+/* цвет акцента #2196F3 */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+    color: var(--primary-text-color);
+}
+
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style-type: none;
+}
+
+.index-h2{    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42/36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+/* ----------------HEADER---------------- */
+
+.title{    
+    font-family: 'Raleway';    
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26); 
+    letter-spacing: 0.03em;    
+    color: var(--accent-color);
+}
+.title-part {       
+    color: var(--title-text-color);
+}
+  
+.nav-menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;    
+    color:var(--title-text-color);
+}
+.nav-menu-link:hover, .nav-menu-link:focus {
+    color:  var(--accent-color);
+}
+.header-cont {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;  
+    color: var(--primary-text-color);  
+}
+.header-cont:hover, .header-cont:focus{
+    color:  var(--accent-color);
+}
+
+/* ------------------HERO---------------- */
+
+.hero-title{
+    background-color: gray;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.hero-btn{
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30/16);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+}
+/* ------------------ABOUT---------------- */
+
+.about {
+}
+.about-title {
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+.about-text {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+}
+/* ------------------TEAM---------------- */
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.team-member-prof{
+    font-size: 16px;
+    line-height: calc(19/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* -----------------------FOOTER -----------------------*/
+.ftr{
+    background-color: grey;
+}
+.logo-ft {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+
+.logo-ft-part {
+    color: #FFFFFF;
+}
+
+.map {
+    font-style: normal;
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.ft-cont {
+    font-size: 14px;
+    line-height: calc(24/14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.ft-cont:hover, .ft-cont:focus{
+    color:  var(--accent-color);
+}
+.map:hover, .map:focus{
+    color:  var(--accent-color);
+}
+
+    /* ----------------------portfolio-------------------- */
+
+    .btn-list{
+        background: #F5F4FA;
+        border-radius: 4px;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: calc(26/16);
+        text-align: center;
+        letter-spacing: 0.03em;
+        cursor: pointer;
+        color: var(--title-text-color);
+        cursor: pointer;
+        border: none;
+    }
+
+        
+    .btn-list:hover, .btn-list:focus{
+        background-color: var(--accent-color); 
+        color: #FFFFFF;
+        }
+
+
+      
+    .list-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: calc(36/18);
+        letter-spacing: 0.06em;
+        color: var(--title-text-color);
+    }
+  
+    .list-info {
+        font-size: 16px;
+        line-height: calc(30/16);
+        letter-spacing: 0.03em;
+    }
