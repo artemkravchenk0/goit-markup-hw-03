@@ -15,33 +15,41 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a class="title link" href="./index.html"
-          >Web<span class="title-part">Studio</span></a
+      <div class="container">
+        <nav>
+          <a class="title link" href="./index.html"
+            >Web<span class="title-part">Studio</span></a
+          >
+          <ul class="nav-menu list">
+            <li class="nav-menu-item">
+              <a href="./index.html" class="nav-menu-link link">Студія</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="./portfolio.html" class="nav-menu-link link"
+                >Портфоліо</a
+              >
+            </li>
+            <li class="nav-menu-item">
+              <a href="" class="nav-menu-link link">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header-cont link" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
         >
-        <ul class="nav-menu list">
-          <li class="nav-menu-item">
-            <a href="./index.html" class="nav-menu-link link">Студія</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="./portfolio.html" class="nav-menu-link link">Портфоліо</a>
-          </li>
-          <li class="nav-menu-item">
-            <a href="" class="nav-menu-link link">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <a class="header-cont link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      >
-      <a class="header-cont link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="header-cont link" href="tel:+380961111111"
+          >+38 096 111 11 11</a
+        >
+      </div>
     </header>
     <main>
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="hero-btn" type="button">Замовити послугу</button>
       </section>
+
       <section class="about">
+       <div class="container">
         <ul class="list">
           <li>
             <h3 class="about-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -71,44 +79,47 @@
             </p>
           </li>
         </ul>
+       </div>
       </section>
       <section>
-        <h2 class="index-h2">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
-            <a href="">
-              <img
-                src="./images/works_1.jpg"
-                alt="комп'ютер"
-                width="370"
-                height="294"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/works_2.jpg"
-                alt="телефон"
-                width="370"
-                height="294"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img
-                src="./images/works_3.jpg"
-                alt="планшет"
-                width="370"
-                height="294"
-              />
-            </a>
-          </li>
-        </ul>
+        <div class="container"><h2 class="index-h2">Чим ми займаємося</h2>
+          <ul class="list">
+            <li>
+              <a href="">
+                <img
+                  src="./images/works_1.jpg"
+                  alt="комп'ютер"
+                  width="370"
+                  height="294"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/works_2.jpg"
+                  alt="телефон"
+                  width="370"
+                  height="294"
+                />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="./images/works_3.jpg"
+                  alt="планшет"
+                  width="370"
+                  height="294"
+                />
+              </a>
+            </li>
+          </ul></div>
+        
       </section>
       <section class="team">
-        <h2 class="index-h2">Наша команда</h2>
+        <div class="container">
+          <h2 class="index-h2">Наша команда</h2>
         <ul class="list">
           <li>
             <img
@@ -151,10 +162,13 @@
             <p class="team-member-prof">UI Designer</p>
           </li>
         </ul>
+        </div>
+        
       </section>
     </main>
     <footer class="ftr">
-      <a class="logo-ft link" href="./index.html"
+      <div class="container">
+        <a class="logo-ft link" href="./index.html"
         >Web<span class="logo-ft-part">Studio</span>
       </a>
       <address>
@@ -175,7 +189,8 @@
         <li>
           <a class="ft-cont link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
-      </ul>
+      </ul></div>
+      
     </footer>
   </body>
 </html>

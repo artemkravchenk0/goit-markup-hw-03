@@ -8,10 +8,21 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
 }
-
+p{
+    margin-block-end: 0;
+}
 body{
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    outline: 2px solid tomato;
 }
 
 .link{
@@ -19,6 +30,8 @@ body{
 }
 .list{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .index-h2{    
@@ -65,38 +78,70 @@ body{
 }
 
 /* ------------------HERO---------------- */
+.hero{
+    text-align: center;
+     
+}
+
+
 
 .hero-title{
+    margin-top: 0;
+    margin-bottom: 30;
+    /* margin-left: 252px;
+    margin-right: 252px; */
     background-color: gray;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-}
+    /* width: 696px;
+    height: 120px */
+    }
+
+    
+    
 
 .hero-btn{
+    margin-top: 0px;
+    /* margin-left: 492px;
+    margin-right: 492px; */
     background-color: var(--accent-color);
     font-family: inherit;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: calc(30/16);
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     border: none;
     color: #FFFFFF;
+
+    min-width: 216px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 10px 32px;
+
 }
+/* .hero-btn:hover .hero-btn:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+} */
+
 /* ------------------ABOUT---------------- */
 
 .about {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 .about-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     font-size: 14px;
     line-height: calc(16/14);
     letter-spacing: 0.03em;
@@ -104,12 +149,29 @@ body{
     color: var(--title-text-color);
 }
 .about-text {
+    margin-top: 0;
+    margin-bottom: 0;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
 }
+/*-----------------------what we do---------------------------- */
+.index-h2{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+
 /* ------------------TEAM---------------- */
+
+.team{
+    margin: 0;
+
+}
+
 .team-member{
+    margin-top: 30px;
+    margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
@@ -119,6 +181,8 @@ body{
 }
 
 .team-member-prof{
+    margin-top: 0;
+    /* margin-bottom: 30px; */
     font-size: 16px;
     line-height: calc(19/16);
     text-align: center;
