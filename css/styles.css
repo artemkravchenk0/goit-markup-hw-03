@@ -143,17 +143,13 @@ body {
 
 .hero-title {
   text-align: center;
-  
+  max-width: 696px;
   padding-top: 200px;
-  padding-right: 652px;
-  padding-left: 652px;
-
-  margin-top: 0;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
-  /* text-align: center; */
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
@@ -161,8 +157,6 @@ body {
 
 .hero-btn {
   margin-top: 0px;
-  /* margin-left: 492px;
-    margin-right: 492px; */
   background-color: var(--accent-color);
   font-family: inherit;
   font-style: normal;
@@ -194,7 +188,6 @@ body {
 }
 
 .section {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -222,8 +215,6 @@ body {
   margin-bottom: 50px;
 }
 
-.works {
-}
 
 .images {
   display: flex;
@@ -336,7 +327,7 @@ body {
 
 .filter {
   margin-right: 8px;
-  margin-bottom: 50px;
+  
 }
 
 .filter:last-child {
@@ -354,6 +345,8 @@ body {
 .navigation-menu {
   display: flex;
   justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .cards {
@@ -371,6 +364,8 @@ body {
 .brd{
 border: 1px solid #eeeeee;
 border-top: 0;
+padding: 20px 24px;
+
 
 
 
@@ -384,20 +379,17 @@ border-top: 0;
 }
 
 .list-title {
-  padding-top: 20px;
+
   margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  padding-left: 24px;
-  padding-right: 24px;
-}
+ }
 
 .list-info {
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
-  padding: 0 24px 20px 24px;
 }
