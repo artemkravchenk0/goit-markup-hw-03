@@ -185,6 +185,7 @@ body {
   display: flex;
   width: 270;
   gap: 30px;
+  padding-top: 94px;
 }
 
 .section {
