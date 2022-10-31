@@ -116,9 +116,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
-/* .header-cont:not(:last-child){
-    margin-right: 50px;
-} */
+
 
 .contacts .header-cont:not(:last-child) {
   margin-right: 50px;
@@ -134,9 +132,7 @@ body {
   flex-direction: row;
   align-items: center;
 }
-/* .main-nav {
-    display: flex;
-} */
+
 
 /* ------------------HERO---------------- */
 .hero {
@@ -146,15 +142,14 @@ body {
 }
 
 .hero-title {
+  text-align: center;
+  
   padding-top: 200px;
   padding-right: 652px;
   padding-left: 652px;
 
   margin-top: 0;
   margin-bottom: 30px;
-  /* margin-left: 252px;
-    margin-right: 252px; */
-
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -277,8 +272,8 @@ body {
   padding: 60px 0;
 }
 .logo-ft {
-  margin-top: 60px;
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -291,7 +286,7 @@ body {
   color: #ffffff;
 }
 
-.map {
+.map { 
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
@@ -300,10 +295,14 @@ body {
 }
 
 .ft-cont {
+  font-style: normal;   
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.ft-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .ft-cont:hover,
