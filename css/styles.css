@@ -51,7 +51,7 @@ body {
   padding: 0;
 }
 
-.index-h2 {
+.index-h2, .works-h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -139,13 +139,14 @@ body {
   text-align: center;
   background-color: #2f303a;
   height: 600px;
+padding-top: 200px;
+padding-bottom: 200px;
+
 }
 
 .hero-title {
   text-align: center;
   max-width: 696px;
-  padding-top: 200px;
-  padding-bottom: 30px;
   margin: 0 auto;
   font-weight: 900;
   font-size: 44px;
@@ -156,7 +157,7 @@ body {
 }
 
 .hero-btn {
-  margin-top: 0px;
+  margin-top: 30px;
   background-color: var(--accent-color);
   font-family: inherit;
   font-style: normal;
@@ -181,16 +182,18 @@ body {
 } */
 
 /* ------------------ABOUT---------------- */
+.about-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .about {
   display: flex;
   width: 270;
   gap: 30px;
-  padding-top: 94px;
 }
 
-.section {
-  padding-bottom: 94px;
-}
+
 
 .about-title {
   margin-top: 0;
@@ -211,9 +214,13 @@ body {
 }
 
 /*-----------------------what we do---------------------------- */
-.index-h2 {
+.works-section{
+  padding-bottom: 94px;
+}
+.works-h2 {
   margin-top: 0px;
   margin-bottom: 50px;
+
 }
 
 
@@ -227,9 +234,15 @@ body {
 }
 /* ------------------TEAM---------------- */
 
+.index-h2 {
+  padding-top: 94px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
 .team {
   margin: 0;
   background: #f5f4fa;
+  padding-bottom: 94px;
 }
 
 .team-cards {
@@ -308,6 +321,14 @@ body {
 
 /* ----------------------portfolio-------------------- */
 
+
+.portfolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+}
+
+
 .btn-list {
   background: #f5f4fa;
   border-radius: 4px;
@@ -346,7 +367,7 @@ body {
 .navigation-menu {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
+  /* margin-top: 94px; */
   margin-bottom: 50px;
 }
 
